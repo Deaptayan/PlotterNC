@@ -1,0 +1,20 @@
+html {
+  color-scheme: light dark;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+main {
+  width: min(30rem, calc(100vw - 2rem));
+}
+
+button {
+  min-height: 2.5rem;
+  padding: 0 1rem;
+}

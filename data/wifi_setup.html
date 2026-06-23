@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plotter WiFi Setup</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main>
+    <h1>WiFi Setup</h1>
+    <form method="post" action="/api/wifi">
+      <label>
+        SSID
+        <input name="ssid" autocomplete="network">
+      </label>
+      <label>
+        Password
+        <input name="password" type="password" autocomplete="current-password">
+      </label>
+      <button type="submit">Save</button>
+    </form>
+  </main>
+</body>
+</html>
